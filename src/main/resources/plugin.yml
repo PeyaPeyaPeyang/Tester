@@ -1,0 +1,7 @@
+name: Test
+author: Peyang
+version: 0.1
+main: tokyo.peya.plugins.Test.Main
+commands:
+  select:
+  oauthmap:
