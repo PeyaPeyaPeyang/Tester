@@ -7,7 +7,6 @@ import tokyo.peya.plugins.Test.tests.entitySelector.EntitySelector;
 import tokyo.peya.plugins.Test.tests.entitySelector.EntitySelectorTest;
 import tokyo.peya.plugins.Test.tests.entitySelector.SelectorException;
 import tokyo.peya.plugins.Test.tests.entitySelector.SelectorInvalidException;
-import tokyo.peya.plugins.Test.tests.oauthMap.OauthMapTest;
 
 import java.security.cert.CertPathParameters;
 import java.util.ArrayList;
@@ -21,8 +20,7 @@ public class Main extends JavaPlugin
     public Main()
     {
         tests = new ArrayList<>(Arrays.asList(
-                new EntitySelectorTest().register(this),
-                new OauthMapTest().register(this)
+                new EntitySelectorTest().register(this)
         ));
     }
 
