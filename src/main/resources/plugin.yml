@@ -5,3 +5,4 @@ main: tokyo.peya.plugins.Test.Main
 commands:
   select:
   oauthmap:
+  usage:
